@@ -7,26 +7,26 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : ldoar
 */
 body{
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
     width: border-box;
     text-align: center;
     margin: 20px auto;
+    background:black;
 }
 nav ul{
-    margin:0;padding: 0;
+    margin:0;
+    padding: 0;
 }
 nav ul li{
     text-decoration: none;
-    display: list-item; margin: 20px;
+    display: list-item;
+    margin: 20px;
 }
-a:link{color: white}
-a:visited{color: yellow}
-a:hover{color: black}
 
 #header{
     width: border-box;
     height: 100%;
-    background: darkcyan;
+    background: bottom;
 }
 #footer{
     height: 30px;
@@ -34,23 +34,13 @@ a:hover{color: black}
     clear:left;
     background: #aaa;
 }
-#footerText{ margin-top: 5px}
+#footerText{
+    margin-top: 5px
+}
 
 #footerDivider{
     margin: 0 25px;
     width: 300px;
-}
-#indexLeftColumn{
-    height: 720px;
-    width: 200px;
-    float: left;
-    background: cadetblue;
-}
-#indexRightColumn{
-    height: 720px;
-    width: 1488px;
-    float: right;
-    background: darkcyan;
 }
 
 

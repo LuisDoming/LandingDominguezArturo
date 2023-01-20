@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 8 oct. 2022, 23:55:42
+    Author     : ldoar
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    width: border-box;
+    text-align: center;
+    margin: 20px auto;
+}
+nav ul{
+    margin:0;padding: 0;
+}
+nav ul li{
+    text-decoration: none;
+    display: list-item; margin: 20px;
+}
+a:link{color: white}
+a:visited{color: yellow}
+a:hover{color: black}
+
+#header{
+    width: border-box;
+    height: 100%;
+    background: darkcyan;
+}
+#footer{
+    height: 30px;
+    width: border-box;
+    clear:left;
+    background: #aaa;
+}
+#footerText{ margin-top: 5px}
+
+#footerDivider{
+    margin: 0 25px;
+    width: 300px;
+}
+#indexLeftColumn{
+    height: 720px;
+    width: 200px;
+    float: left;
+    background: cadetblue;
+}
+#indexRightColumn{
+    height: 720px;
+    width: 1488px;
+    float: right;
+    background: darkcyan;
+}
+
+
+
